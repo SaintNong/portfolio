@@ -221,6 +221,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    // Who'd read this anyways lol
+    // if ur reading this, go drink some water idk
     console.log('%c👋 Hello, fellow developer!', 'font-size: 16px; font-weight: bold; color: #6366f1;');
     console.log('%cLooking for the source code? Check out the GitHub repo!', 'font-size: 12px; color: #a1a1aa;');
 });
