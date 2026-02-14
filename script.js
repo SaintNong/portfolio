@@ -119,19 +119,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    const heroVisual = document.querySelector('.hero-visual');
-    if (heroVisual) {
-        window.addEventListener('mousemove', function(e) {
-            const mouseX = e.clientX / window.innerWidth;
-            const mouseY = e.clientY / window.innerHeight;
-            
-            const moveX = (mouseX - 0.5) * 20;
-            const moveY = (mouseY - 0.5) * 20;
-            
-            heroVisual.style.transform = `translate(${moveX}px, ${moveY}px)`;
-        });
-    }
-
     const skillItems = document.querySelectorAll('.skill-item');
     skillItems.forEach(function(item) {
         item.addEventListener('mouseenter', function() {
