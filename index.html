@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ning Xiaozhou | Software Engineer & Competitive Programmer</title>
+    <meta name="description" content="Portfolio of Ning Xiaozhou - Computer Science student, competitive programmer, and CTF champion">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>NX<span class="logo-bracket">/&gt;</span>
+            </a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link nav-link-contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="grid-overlay"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting" data-aos="fade-up">Hello, I'm</p>
+                <h1 class="hero-name" data-aos="fade-up" data-aos-delay="100">
+                    <span class="name-highlight">Ning Xiaozhou</span>
+                </h1>
+                <div class="hero-titles" data-aos="fade-up" data-aos-delay="200">
+                    <span class="title-item">Software Engineer</span>
+                    <span class="title-divider">|</span>
+                    <span class="title-item">Systems Programmer</span>
+                    <span class="title-divider">|</span>
+                    <span class="title-item">CTF Player</span>
+                </div>
+                <p class="hero-tagline" data-aos="fade-up" data-aos-delay="300">
+                    Building high-performance systems, and maybe sometimes breaking them.
+                </p>
+                <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i> View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
+                </div>
+                <div class="hero-social" data-aos="fade-up" data-aos-delay="500">
+                    <a href="https://github.com/SaintNong" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:ning.xiaozhou.work@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left" data-aos-delay="200">
+                <div class="code-window">
+                    <div class="code-header">
+                        <span class="code-dot red"></span>
+                        <span class="code-dot yellow"></span>
+                        <span class="code-dot green"></span>
+                        <span class="code-title">portfolio.cpp</span>
+                    </div>
+                    <pre class="code-content"><code><span class="code-keyword">class</span> <span class="code-class">Developer</span> {
+<span class="code-keyword">public</span>:
+    <span class="code-type">string</span> name = <span class="code-string">"Ning Xiaozhou"</span>;
+    <span class="code-type">vector</span>&lt;<span class="code-type">string</span>&gt; passions = {
+        <span class="code-string">"Systems Programming"</span>,
+        <span class="code-string">"Competitive Programming"</span>,
+        <span class="code-string">"CTF Competitions"</span>,
+        <span class="code-string">"Chess Engines"</span>
+    };
+    
+    <span class="code-type">void</span> <span class="code-function">code</span>() {
+        <span class="code-keyword">while</span> (alive) {
+            learn();
+            build();
+            improve();
+        }
+    }
+};</code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="600">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">01.</span> About Me
+            </h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p class="about-intro">
+                        I'm a Computer Science student at the <strong>University of New South Wales</strong> 
+                        with a passion for building high-performance systems and solving hard problems.
+                    </p>
+                    <p>
+                        My journey in tech began with competitive programming and CTF competitions, where I've 
+                        achieved <strong>1st place nationally</strong> multiple times. This foundation in algorithms 
+                        and problem-solving drives my approach to software engineering.
+                    </p>
+                    <p>
+                        My current interests are <strong>systems programming</strong>, <strong>compiler design</strong>, 
+                        and <strong>DevOps</strong>. When I'm not coding, you'll likely find me competing in osu!mania 
+                        or playing chess.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>CTF Player</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-globe"></i>
+                            <span>Australian Team Member</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-card" data-aos="fade-left">
+                    <div class="education-card">
+                        <div class="card-header">
+                            <i class="fas fa-university"></i>
+                            <h3>Education</h3>
+                        </div>
+                        <div class="card-content">
+                            <h4>University of New South Wales</h4>
+                            <p class="degree">Bachelor of Science (Computer Science)</p>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Sydney, NSW</p>
+                            <p class="timeline"><i class="fas fa-calendar"></i> 2025 – 2027 (Expected)</p>
+                            <p class="wam"><i class="fas fa-star"></i> WAM: Distinction</p>
+                            <div class="societies">
+                                <p class="societies-label">Societies:</p>
+                                <div class="society-tags">
+                                    <span class="tag">DevSoc</span>
+                                    <span class="tag">CPMSoc</span>
+                                    <span class="tag">CSESoc</span>
+                                    <span class="tag">MathSoc</span>
+                                    <span class="tag">Rhythm Game Society</span>
+                                    <span class="tag">Chess Club</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">02.<title-numberspan> Experience
+            </h2>
+            <div class="timeline" data-aos="fade-up">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="exp-header">
+                                <h3>DevOps Project Intern</h3>
+                                <span class="exp-date">Dec 2025 – Jan 2026</span>
+                            </div>
+                            <h4 class="exp-company">Transforming our Business, Legal Aid WA</h4>
+                            <div class="exp-tech">
+                                <span class="tech-tag"><i class="fab fa-microsoft"></i> Azure DevOps</span>
+                                <span class="tech-tag"><i class="fab fa-github"></i> GitHub Actions</span>
+                                <span class="tech-tag"><i class="fab fa-git-alt"></i> Git</span>
+                                <span class="tech-tag"><i class="fab fa-python"></i> Python</span>
+                                <span class="tech-tag"><i class="fas fa-code"></i> C++</span>
+                            </div>
+                            <ul class="exp-list">
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    Authored technical proposal for Azure DevOps adoption including infrastructure requirements and CI/CD architectural diagrams
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    Designed DevOps and version control workflow improvements across 4 cross-functional teams
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    Developed and presented C++ and Python proof-of-concept repositories utilising GitHub Actions
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">03.</span> Featured Projects
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-header">
+                        <div class="project-icons">
+                            <i class="fas fa-chess-knight"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/SaintNong/young-master" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Young Master</h3>
+                    <p class="project-subtitle">Grandmaster-Strength Chess Engine</p>
+                    <p class="project-description">
+                        A high-performance chess engine achieving approximately 2600 Elo using modern 
+                        optimization techniques and automated testing infrastructure.
+                    </p>
+                    <div class="project-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-bolt"></i>
+                            <span>54M positions/second</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-chart-line"></i>
+                            <span>~2600 Elo</span>
+                        </div>
+                    </div>
+                    <ul class="project-details">
+                        <li>Implemented magic bitboards for ultra-fast move generation</li>
+                        <li>Automated SPRT testing for statistically significant strength improvements</li>
+                        <li>Highly optimized C implementation with systems-level performance focus</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>C</span>
+                        <span>Systems</span>
+                        <span>Performance Optimization</span>
+                    </div>
+                </div>
+
+                <div class="project-card featured" data-aos="fade-up" data-aos-delay="200">
+                    <div class="featured-badge"><i class="fas fa-star"></i> Featured</div>
+                    <div class="project-header">
+                        <div class="project-icons">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/SaintNong/SaintCTF" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">SCSA Pseudocode Interpreter</h3>
+                    <p class="project-subtitle">Custom High-Level OOP Language</p>
+                    <p class="project-description">
+                        A complete interpreter toolchain featuring REPL, foreign function interface, 
+                        and custom VSCode extension with complete OOP support.
+                    </p>
+                    <div class="project-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>139 tests</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-cogs"></i>
+                            <span>Full toolchain</span>
+                        </div>
+                    </div>
+                    <ul class="project-details">
+                        <li>Full interpreter with REPL, FFI, and VSCode extension support</li>
+                        <li>Complete OOP support with polymorphism and lexical closures</li>
+                        <li>139 integration tests with GitHub Actions CI/CD pipeline</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>C++</span>
+                        <span>Compiler Design</span>
+                        <span>DevOps</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-header">
+                        <div class="project-icons">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/SaintNong/pseudocode" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">SaintCTF</h3>
+                    <p class="project-subtitle">Containerized CTF Hosting Platform</p>
+                    <p class="project-description">
+                        Full-stack CTF platform with automated Docker challenge serving, 
+                        designed and developed as team lead.
+                    </p>
+                    <div class="project-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-users"></i>
+                            <span>Team Lead</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fab fa-docker"></i>
+                            <span>Containerized</span>
+                        </div>
+                    </div>
+                    <ul class="project-details">
+                        <li>Led team developing full-stack CTF platform</li>
+                        <li>Automated Docker challenge serving infrastructure</li>
+                        <li>Designed advanced crypto challenges and custom ISA VM reverse engineering tasks</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Python/Flask</span>
+                        <span>Docker</span>
+                        <span>SQLAlchemy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section achievements">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">04.</span> Achievements
+            </h2>
+            
+            <div class="achievements-intro" data-aos="fade-up">
+                <p>Competing in Capture The Flag competitions since 2022, achieving top placements nationally.</p>
+            </div>
+
+            <div class="achievements-grid">
+                <div class="achievement-year" data-aos="fade-right">
+                    <h3 class="year-title">2024</h3>
+                    <div class="achievement-list">
+                        <div class="achievement-item gold">
+                            <div class="achievement-medal">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="achievement-info">
+                                <h4>DownUnderCTF</h4>
+                                <p>1st place Australian prize <br>(4th place AU/NZ)</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item gold">
+                            <div class="achievement-medal">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="achievement-info">
+                                <h4>Australian Signals Directorate CTF</h4>
+                                <p>1st Place – High School</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item silver">
+                            <div class="achievement-medal">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="achievement-info">
+                                <h4>PECAN+</h4>
+                                <p>2nd Place – Advanced Division</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-year" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="year-title">2023</h3>
+                    <div class="achievement-list">
+                        <div class="achievement-item silver">
+                            <div class="achievement-medal">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="achievement-info">
+                                <h4>DownUnderCTF</h4>
+                                <p>2nd Place – Australian Secondary School</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item silver">
+                            <div class="achievement-medal">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="achievement-info">
+                                <h4>PECAN+</h4>
+                                <p>2nd Place – Advanced Division</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-year" data-aos="fade-left" data-aos-delay="200">
+                    <h3 class="year-title">2022</h3>
+                    <div class="achievement-list">
+                        <div class="achievement-item gold">
+                            <div class="achievement-medal">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="achievement-info">
+                                <h4>WACTF</h4>
+                                <p>1st Place – High School</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item gold">
+                            <div class="achievement-medal">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="achievement-info">
+                                <h4>PECAN+</h4>
+                                <p>1st Place – Intermediate Division</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="other-achievement" data-aos="fade-up">
+                <div class="other-card">
+                    <div class="other-icon">
+                        <i class="fas fa-globe-asia"></i>
+                    </div>
+                    <div class="other-content">
+                        <h4>osu!mania 4k World Cup 2025</h4>
+                        <p>Member, Australian National Team</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">05.</span> Skills & Technologies
+            </h2>
+            
+            <div class="skills-container">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        Programming Languages
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C/C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Technologies & Frameworks
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cube"></i>
+                            <span>CMake</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-linux"></i>
+                            <span>Linux/Bash</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Flask</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="category-title">
+                        <i class="fas fa-brain"></i>
+                        Domains & Concepts
+                    </h3>
+                    <div class="skill-items domains">
+                        <div class="domain-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Software Engineering</span>
+                        </div>
+                        <div class="domain-item">
+                            <i class="fas fa-infinity"></i>
+                            <span>DevOps</span>
+                        </div>
+                        <div class="domain-item">
+                            <i class="fas fa-microchip"></i>
+                            <span>Systems Programming</span>
+                        </div>
+                        <div class="domain-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>Data Structures & Algorithms</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">06.</span> Get In Touch
+            </h2>
+            
+            <div class="contact-content" data-aos="fade-up">
+                <p class="contact-intro">
+                    I'm currently open to internship opportunities and interesting projects. 
+                    Feel free to reach out if you'd like to connect!
+                </p>
+                
+                <div class="contact-methods">
+                    <a href="mailto:ning.xiaozhou.work@gmail.com" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Email</h4>
+                            <p>ning.xiaozhou.work@gmail.com</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/SaintNong" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>GitHub</h4>
+                            <p>@SaintNong</p>
+                        </div>
+                    </a>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Phone</h4>
+                            <p>+61 434 470 737</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="mailto:ning.xiaozhou.work@gmail.com" class="btn btn-primary btn-large">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">
+                    Designed & Built by <span class="highlight">Ning Xiaozhou</span>
+                </p>
+                <p class="footer-copyright">
+                    © 2026 All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
