@@ -13,19 +13,14 @@ a {
 }
 
 a:visited {
-    color: #aaa;
+    color: #fff;
 }
 
-h1 {
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    margin-bottom: 32px;
-}
-
+h1,
 h2 {
-    font-size: 1rem;
-    text-transform: uppercase;
-    margin-bottom: 8px;
+    color: inherit;
+    font: inherit;
+    margin: 0;
 }
 
 section {
@@ -40,4 +35,10 @@ ul {
 
 li {
     margin-bottom: 4px;
+}
+
+li span {
+    display: block;
+    color: #aaa;
+    padding-left: 1em;
 }
